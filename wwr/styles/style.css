@@ -1,0 +1,110 @@
+/* Setting max width in case of wide screens */
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/* Centering Text */
+nav a { /*The selector was supposed to be for 'nav a', but it wouldn't center*/
+    text-align: center;
+    color: #94d2bd;
+    text-decoration: none;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+/* Creating a Backround Section */
+#background {
+    height: 725px;
+}
+
+/* Setting Background Colors */
+body {
+    background-color: antiquewhite;
+}
+
+header {
+    background-color: #005f73;
+}
+
+nav a:hover {
+    background-color: #EE9B00;
+    color: black;
+}
+
+.book, .join {
+    background-color: #005f73;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.book:hover, .join:hover {
+    background-color: #EE9B00;
+}
+
+#background {
+    background-color: #005f73;
+}
+
+.msg {
+    background-color: #94d2bd;
+}
+
+footer {
+    background-color: #005f73;
+}
+
+/* Text Color */
+.home-title {
+    color: black;
+}
+
+h4 {
+    color: black;
+}
+
+.msg h2 {
+    color: #005f73;
+}
+
+.msg p {
+    color: black;
+}
+
+footer h3 {
+    color: #94d2bd;
+
+}
+
+footer a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #EE9B00;
+}
+
+/* Setting Widths for Images*/
+.logo {
+    width: 80px;
+}
+
+.icon {
+    width: 80px;
+}
+
+/* Adding Underline to Footer Links when Hovered */
+footer h3 a:hover {
+    text-decoration: underline;
+}
