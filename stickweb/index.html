@@ -5,49 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StickWeb</title>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Joan&family=Teko:wght@300&display=swap');</style>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <header>
-        <div>
-            <img id="header-logo" src="styles/Untitled design.png" alt="logo">
-        </div>
+        <img id="header-logo" src="styles/Untitled_design.png" alt="logo">
 
-        <h1>StickWeb</h1>
 
         <nav>
-            <a href="index.html">Home</a> 
-            <a href="getting-started.html">Getting Started</a>
-            <a href="the-why.html">The Why</a>
+            <h3><a href="index.html">Home</a></h3>
+            <h3><a href="getting-started.html">Getting Started</a></h3>
+            <h3><a href="the-why.html">The Why</a></h3>
         </nav>
     </header>
 
     <main>
         <div id="title-logo">
-            <img id="home-logo" src="styles/Untitled design.png" alt="logo">
+            <img id="home-logo" src="styles/Untitled_design.png" alt="logo">
 
             <h1>StickWeb</h1>
         </div>
 
-        <div id="info-boxes">
-            <p>StickWeb is dedicated to creating custom websites for your use. Whether you are looking to have a website built for your business, your interests, or your dog, we have you covered with sleek, user-friendly resources to create your presence on the web.</p>
-            
-            <img src="styles/pers-site-pics/pexels-pixabay-40185.jpg" alt="google on laptop">
-
-            <p>We look forward to working with you. Below are two links, one to get you started on helping us build your site, and one that explains the importance of what we do. We want everyone to understand just how important a website is to achieve goals and create a presence much farther than the eye can see.</p>
-            
-            <img src="styles/pers-site-pics/pexels-tranmautritam-326514.jpg" alt="websites on monitor">
-        </div>
-        
-        <section id="home-link-pics">
-            <div id="wireframe-link-pic">
-                <img src="styles/pers-site-pics/pexels-picjumbocom-196645.jpg"  alt="wireframe">
-                <h2>Get Started!</h2>
+        <section id="info-boxes">
+            <div id = "first-info" class="information">
+                <h2 class="main-p">StickWeb is dedicated to creating custom websites for your use. Whether you are looking to have a website built for your business, your interests, or your dog, we have you covered with sleek, user-friendly resources to create your presence on the web.</h2>
+                
+                <img class="main-p" id="first-info-pic" src="styles/pers-site-pics/pexels-pixabay-40185.jpg" alt="google on laptop">
             </div>
 
-            <div id="success-link-pic">
-                <img src="styles/pers-site-pics/pexels-gerd-altmann-21696.jpg" alt="success image">
-                <h2>Learn More!</h2>
+            <div id = "second-info" class="information">
+                <img class="main-p" id="second-info-pic" src="styles/pers-site-pics/pexels-tranmautritam-326514.jpg" alt="websites on monitor">
+
+                <h2 class="main-p">We look forward to working with you. Below are two links, one to get you started on helping us build your site, and one that explains the importance of what we do. We want everyone to understand just how important a website is to achieve goals and create a presence much farther than the eye can see.</h2>
+            </div>
+        </section>
+        
+        <section id="home-link-pics">
+            <div class="link-pic-div" id="wireframe-link-pic">
+                <a href="getting-started.html">
+                    <img class="home-link-pic-img" src="styles/pers-site-pics/pexels-picjumbocom-196645.jpg"  alt="wireframe">
+                </a>
+
+                <h2><a href="getting-started.html" >Get Started!</a></h2>
+            </div>
+
+            <div class="link-pic-div" id="success-link-pic">
+                <a href="the-why.html" >
+                    <img class="home-link-pic-img" src="styles/pers-site-pics/pexels-gerd-altmann-21696.jpg" alt="success image">
+                </a>
+
+                <h2><a href="the-why.html" >Learn More!</a></h2>
             </div>
         </section>
     </main>
@@ -63,20 +71,20 @@
         </div>
 
         <div id="site-plan-link">
-            <a href="site-plan.html">Site Plan</a>
+            <h2><a href="site-plan.html">Site Plan</a></h2>
         </div>
 
         <div class="footer-contents" id="social-links">
-            <div class="social">
-                <a href="https://instagram.com" target="_blank">
+            <div >
+                <a class="social" href="https://instagram.com" target="_blank">
                     <img src="images/instagram.png" alt="instagram icon">
                 </a>
 
-                <a href="https://facebook.com" target="_blank">
+                <a class="social" href="https://facebook.com" target="_blank">
                     <img src="images/facebook.png" alt="fb icon">
                 </a>
                 
-                <a href="https://twitter.com" target="_blank">
+                <a class="social" href="https://twitter.com" target="_blank">
                     <img src="images/twitter.png" alt="instagram icon">
                 </a>
             </div>
