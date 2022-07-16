@@ -344,3 +344,57 @@ body {
 #info {
     grid-column: 3/4;
 }
+
+/* Subpage 2 CSS */
+#why-main {
+    max-width: 1400px;
+    margin: 0 auto;
+    border: solid red;
+    background-color: #2BD9FE;
+}
+
+
+#why-box {
+    background-color: #388659;
+    z-index: 1
+}
+
+.why-page-intro {
+    z-index: 1;
+    text-align: center;
+    background-color: #388659;
+}
+
+/* #why-top-half {
+    margin-bottom: -30px;
+} */
+
+#why-boxes {
+    z-index: -1;
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.why {
+    margin: 0 auto;
+    width: 33%;
+    height: 100%;
+    background-color: #388659;
+}
+
+.why h2 {
+    font-size:large;
+    z-index: 1;
+}
+
+.why-imgs {
+    /* width: 33%; */
+    height: 100%;
+    margin: 0 auto;
+    z-index: -3;
+}
+
+#why-business {
+    background-image: "styles/pers-site-pics/pexels-antoni-shkraba-4348403.jpg";
+}
